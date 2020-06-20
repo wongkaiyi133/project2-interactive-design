@@ -2,13 +2,15 @@
 /* CSS Document */
 
 /** { border:1px solid red}*/
-
+body {
+	font-family: 'Fira Sans', sans-serif;
+}
 .navbar-brand {
 	
 	
 	padding: 0px;
 	margin: 0px;
-	margin-bottom: 0px;
+	margin-top: 5px;
 	margin-right: 5px;
 }
 
