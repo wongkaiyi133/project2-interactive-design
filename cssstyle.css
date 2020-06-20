@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+
+/** { border:1px solid red}*/
+
+.navbar-brand {
+	
+	
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 0px;
+	margin-right: 5px;
+}
+
+
+.socialmedia {
+	height: 30px;
+	width: 30px;
+	margin-top: 5px;
+	align-content: flex-start;
+}
+
+.icons {
+	height: 40px;
+	width: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  #pinterest {
+    display: none;
+  }
+#twitter {
+    display: none;
+  }
+}
+
+@media screen and (max-width:800px) {
+	.icons {display: inherit}
+}
+
+/*---------button--------------------*/
+
+
+/*---------------------------banner------------------------------*/
+#banner {
+	background-color: black;
+	color: white;
+	
+}
+.bannertext {
+	font-size: 1.5vw;
+}
+
+.bannerecstase {
+	font-size: 5vw;
+}
+
+.banneramazing {
+	font-size: 3vw;
+}
+
+.bannerbutton {
+	font-size: 1.3vw;
+	font-weight: 700;
+}
+
+/*---------------------------white bg posters------------------------------*/
+
+.newreleasesection {
+	background-image: url("images from ecstase/top black.png");
+	background-position: bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.whiteposterinfo {
+	text-align: center;
+}
+
+.buynow1 {
+	font-size: 10px;
+	font-weight: 800;
+}
+
+/* ----------------call to action-----------------*/
+.blankdiv {
+	padding:17px;
+}
+
+.blankdiv2 {
+	padding: 15px;
+}
+/*-------text size-----------------*/
+@media  (max-width: 995px) {
+.smallh6 {
+	font-size:15px;
+}
+.whitep {
+	font-size: 12px;
+	}
+}
+
+
+@media (min-width:722px) and (max-width:770px) {
+.smallh6 {
+	font-size:12px;
+}
+.whitep {
+	font-size: 10px;
+	}
+}
+	
+@media (min-width:576px) and (max-width:722px) {
+.smallh6 {
+	font-size:11px;
+}
+.whitep {
+	font-size: 10px;
+	}
+}
+/*----goneandgoing*/
+.goneandgoing {
+	background-image: url("images from ecstase/black1-01.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	
+}
+/*--------------------------gone and going---------------------------*/
+.goneandgoing {
+	background-color: black;
+	color: white;
+	
+}
+
+
+.belowgone {
+	background-image: url("images from ecstase/bottom black.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+	
+	
+}
+
+.blackposterinfo {
+	text-align: center;
+	font-size: 12px;
+}
+/*-----------blackp size*/
+	
+@media  (max-width: 984px) {
+.secondh6 {
+	font-size:15px;
+}
+.blackp {
+	font-size: 12px;
+	}
+}
+
+@media (min-width:768px) and (max-width:984px) {
+.secondh6 {
+	font-size:12px;
+}
+.blackp {
+	font-size: 10px;
+	}
+}
+/*---------------------------new launch---------------------------*/
+.newlaunch {
+	width: 450px;
+}
+
+@media (min-width:0px) and (max-width:500px) {
+	.newlaunch {
+		width: 100%;
+	}
+}
+/*---------------------------footer-----------------------------*/
+.signup {
+	color:lightcyan;
+}
+a {
+	color: white;
+}
+a:hover {
+	color: azure;
+}
+.footer1 {
+	font-size:13px;
+	line-height: 20px;
+}
+
+.footer2 {
+	font-size: 13px;
+	line-height: 20px;
+	padding-top: 10px;
+}
+
+#footerblack {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	
+}
